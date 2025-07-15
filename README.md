@@ -10,7 +10,7 @@ This project helps visualize and predict a student's final exam score using vari
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Flask
@@ -55,11 +55,11 @@ pip install -r requirements.txt
 ```
 
 ## 🔧 How to Use
-▶ To train the model:
+ 1. To train the model:
 ```bash
 python model_train.py
 ```
-▶ To run the Flask app:
+2. To run the Flask app:
 ```bash
 python app.py
 ```
