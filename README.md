@@ -1,22 +1,12 @@
-# 🧠 Student Score Predictor
+#  Student Score Predictor
 
 A web-based application that predicts student exam scores based on input factors such as hours studied, attendance, and previous scores. Built using Flask, this project leverages machine learning for educational performance forecasting.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
-This project helps visualize and predict a student's final exam score using input features. It uses a trained regression model and offers a simple user interface for input and result viewing.
-
----
-
-## 🚀 Features
-
-- 📈 Predict student scores based on input data
-- 🧠 Trained machine learning model (`model.pkl`)
-- 💻 Web interface using **Flask**
-- 📊 Data preprocessing and model training from CSV dataset
-- 📁 Modular code structure (with `static/`, `templates/`, etc.)
+This project helps visualize and predict a student's final exam score using various input features. It uses a trained regression model and offers a simple user interface for input and result viewing.
 
 ---
 
@@ -31,7 +21,8 @@ This project helps visualize and predict a student's final exam score using inpu
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
+```
 Student-score-predictor/
 │
 ├── static/ # Static assets (CSS, JS)
@@ -42,7 +33,7 @@ Student-score-predictor/
 ├── requirements.txt # Python dependencies
 ├── pccoe_CSE_DivA&B_google_form_dataset.xlsx # Input dataset
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -53,22 +44,22 @@ Student-score-predictor/
 git clone https://github.com/your-username/student-score-predictor.git
 cd student-score-predictor
 ```
-Step 2: Create a virtual environment (optional but recommended)
+### Step 2: Create a virtual environment (optional but recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-Step 3: Install dependencies
+### Step 3: Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-##🔧 How to Use
-▶️ To train the model:
+## 🔧 How to Use
+▶ To train the model:
 ```bash
 python model_train.py
 ```
-▶️ To run the Flask app:
+▶ To run the Flask app:
 ```bash
 python app.py
 ```
